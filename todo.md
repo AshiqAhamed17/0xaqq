@@ -37,31 +37,31 @@ Optionally mints OnchainIdentityNFT (soulbound badge)
 
 ### 1.1 Initialize Next.js Project
 
-- [ ] Create Next.js 14+ app with App Router
-- [ ] Configure TypeScript
-- [ ] Set up Tailwind CSS (minimal config)
-- [ ] Install dependencies: wagmi, viem, @tanstack/react-query
-- [ ] Configure wagmi with testnet (Sepolia or Base Sepolia)
-- [ ] Set up environment variables (.env.local)
+- [X] Create Next.js 14+ app with App Router
+- [X] Configure TypeScript
+- [X] Set up Tailwind CSS (minimal config)
+- [X] Install dependencies: wagmi, viem, @tanstack/react-query
+- [X] Configure wagmi with testnet (Sepolia or Base Sepolia)
+- [X] Set up environment variables (.env.local)
 
 ### 1.2 Initialize Foundry Project
 
-- [ ] Create Foundry project structure
-- [ ] Configure foundry.toml (testnet settings)
-- [ ] Set up remappings for imports
-- [ ] Create deployment scripts structure
+- [X] Create Foundry project structure
+- [X] Configure foundry.toml (testnet settings)
+- [X] Set up remappings for imports
+- [X] Create deployment scripts structure
 
 ### 1.3 Project Structure
 
-- [ ] Create `/app` directory structure:
+- [X] Create `/app` directory structure:
   - `page.tsx` (landing)
   - `about/page.tsx`
   - `work/page.tsx`
   - `identity/page.tsx`
-- [ ] Create `/contracts` directory
-- [ ] Create `/test` directory
-- [ ] Create `/lib` directory for utilities
-- [ ] Create `/components` directory for React components
+- [X] Create `/contracts` directory
+- [X] Create `/test` directory
+- [X] Create `/lib` directory for utilities
+- [X] Create `/components` directory for React components
 
 ---
 
