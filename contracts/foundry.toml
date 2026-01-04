@@ -14,11 +14,12 @@ remappings = [
 # Testnet configuration
 [rpc_endpoints]
 sepolia = "${SEPOLIA_RPC_URL}"
-base_sepolia = "${BASE_SEPOLIA_RPC_URL}"
 
-[etherscan]
-sepolia = { key = "${ETHERSCAN_API_KEY}" }
-base_sepolia = { key = "${BASESCAN_API_KEY}" }
+# Etherscan configuration removed to prevent auto-verification
+# Since Foundry 1.1.0 doesn't fully support V2 API yet
+# Verify manually on Etherscan after deployment
+# [etherscan]
+# sepolia = { key = "${ETHERSCAN_API_KEY}" }
 
 [fmt]
 line_length = 120
